@@ -20,7 +20,7 @@ var myApp = angular.module('myApp', ['count-to']);
 
 Apply the directive to a dom element.
 ```
- <span count-to="{{countTo}}" value="{{countFrom}}" duration="4"></span>
+ <span currency-name='JPY' count-to="{{countTo}}" value="{{countFrom}}" duration="4"></span>
 ```
 
 
