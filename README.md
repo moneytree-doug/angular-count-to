@@ -31,4 +31,5 @@ The following attributes can be set as numbers on the directive element.
 - ```count-to```  the number to count to.
 - ```value```  the number to start counting from.
 - ```duration```  how long the count should take in seconds.
+- ```currency-name``` (optional) if you supply a currency name such as (USD, JPY, etc...) then it will count in that currency and will account for negative numbers.
 
