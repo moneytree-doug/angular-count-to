@@ -1,4 +1,4 @@
-var countTo = (function() {
+var countTo = (function(window, angular) {
 
   angular.module('countTo', []).directive('countTo', countTo)
   countTo.$inject = ['$timeout'];
@@ -149,4 +149,5 @@ var countTo = (function() {
     }
   };
 
-})()
+})(window, window.angular);
+
