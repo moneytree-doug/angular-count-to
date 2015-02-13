@@ -1,7 +1,9 @@
-# Angular Count-To
+# Moneytree's Angular Count-To
 
 This project is an animated counter for Angularjs. The directive counts from one number to another over a configured duration.
 [Demo](http://sparkalow.github.io/angular-count-to/)
+
+The only **difference** in this fork is the extra support for counting currency.
 
 ## How to use angular count-to
 
